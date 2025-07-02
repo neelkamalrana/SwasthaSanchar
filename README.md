@@ -1,34 +1,31 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Swasta+Sanchar" alt="Swasta Sanchar Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=header&text=Swastha+Sanchar" alt="Swastha Sanchar Banner" />
 </p>
-
-
 
 ---
 
 ## 📱 Project Overview
 
-**Swasta Sanchar** is a holistic wellness Android application designed to connect individuals through community-based physical and mental wellness activities. With a community-first and culturally sensitive approach, users can set personal goals, share progress, and discover local events.
-
+**Swastha Sanchar** is a **comprehensive wellness-focused Android application** designed to promote both physical and mental well-being through community-centered engagement. It empowers users to set personal wellness goals, monitor their progress, and take part in local or virtual wellness events, all within a culturally inclusive and supportive space.
 ---
 
 ## 🎯 Key Features
 
-* **User Profiles**: Manage personal details, wellness interests, and progress trackers.
-* **Community Feed**: Share updates, achievements, photos, and motivational posts.
-* **Event Management**: Create, browse, and join wellness events with built-in reminders.
-* **Groups & Connections**: Find and connect with like-minded individuals or interest-based groups.
-* **Push Notifications**: Real-time alerts for event invites, reminders, and community interactions.
+- **User Profiles:** Create and manage personal profiles, set wellness preferences, and track progress over time.
+- **Community Feed:** Share updates, post achievements, upload photos, and engage with motivational content from others.
+- **Event Management:** Organize, browse, and RSVP for wellness events with built-in reminders and notifications.
+- **Groups & Connections:** Connect with like-minded individuals or join interest-based wellness groups.
+- **Push Notifications:** Stay informed with real-time alerts for event invites, reminders, and community interactions.
 
 ---
 
 ## 🧰 Tech Stack
 
-| Layer        | Technologies                                           |
-| ------------ | ------------------------------------------------------ |
-| **Frontend** | Android Studio & Jetpack Compose                       |
-| **Backend**  | Firebase Authentication, Firestore, Cloud Storage, FCM |
-| **CI/CD**    | GitHub Actions                                         |
+| Layer        | Technologies                                             |
+| ------------ | -------------------------------------------------------- |
+| **Frontend** | Android Studio with Jetpack Compose                      |
+| **Backend**  | Firebase Authentication, Firestore, Cloud Storage, FCM   |
+| **CI/CD**    | GitHub Actions                                           |
 
 ---
 
@@ -36,21 +33,17 @@
 
 ### Prerequisites
 
-* **Android Studio** (Arctic Fox or later)
-* **JDK 11**+
-* **Firebase Project** (with Authentication, Firestore, Cloud Storage, and Push Notifications)
+- **Android Studio** (Arctic Fox or newer)
+- **JDK 11** or higher
+- **Firebase Project** (enabled with Authentication, Firestore, Cloud Storage, and Firebase Cloud Messaging)
 
-### Installation
-
+### Installation Steps
 1. **Clone the repository**
+   git clone https://github.com/neelkamalrana/SwasthaSanchar.git
 
-   ```bash
-   git clone https://github.com/your-org/SwasthaSanchar.git
-   cd swastha-sanchar
-   ```
 2. **Add Firebase config**
 
-   * Place the downloaded `google-services.json` file into `app/`.
+   * Place the downloaded google-services.json file into app/.
 3. **Build & Run**
 
    * Open the project in Android Studio.
@@ -82,13 +75,7 @@
 
 ## 🚧 Future Enhancements
 
-* AI-driven personalized wellness recommendations
-* In-app real-time chat and group voice rooms
-* Localization & multilingual support
-* Wearable integration (fitness trackers & smartwatches)
-
----
-
-
-
-
+* AI-powered personalized wellness suggestions
+* Real-time in-app chat and group voice interaction rooms
+* Multilingual support and content localization
+* Integration with wearable devices such as fitness trackers and smartwatches
