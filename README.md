@@ -45,7 +45,7 @@
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-org/swastha-sanchar.git
+   git clone https://github.com/your-org/SwasthaSanchar.git
    cd swastha-sanchar
    ```
 2. **Add Firebase config**
